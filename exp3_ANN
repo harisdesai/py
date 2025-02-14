@@ -1,0 +1,44 @@
+import numpy as np
+
+x=np.array([1,2,3,4,5])
+y=np.array([2,4,6,8,10])
+
+def sigmoid(x):
+    return 1/(1+np.exp(-x))
+
+def relu(x):
+    return np.tanH(x)
+
+np.random.seed(0)
+
+study_hrs=np.linspace(0,10,100)
+marks=5*study_hrs+np.random.normal(0,2,100)
+y=(marks-np.mean(marks))/np.std(marks)
+
+w=np.random.randn()
+b=np.random.randn()
+
+learning_rate = 0.0001
+
+def gradient(act_fun,itrs=1750):
+    global w,b
+
+    for i in range(itrs):
+        y_pred=act_fun(w*study_hrs+b)
+        error=y_pred-y
+    
+        dw = (2/len(study_hrs))*np.sum(error*study_hrs)
+        db = (2/len(study_hrs))*np.sum(error)
+
+        w=w-learning_rate*dw
+        b=b-learning_rate*db
+        
+        return w,b
+    
+    w_sigmoid,b_sigmoid+gradient(sigmoid)
+    print(f"Weight={w_sigmoid},Bias={b_sigmoid}")
+
+       # if i%100==0:
+         #   MSE=np.mean(error**2)
+          #  print(f"iteration {i} :w={w:.4f} b={b:.4f} MSE = {MSE:.4f}")
+        #plt.scatter(x,y,color="blue",label = "True Value")
