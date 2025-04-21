@@ -1,0 +1,17 @@
+Design a premium, interactive web page to surprise my best friend on their birthday.
+The theme should be elegant, modern, and emotionally touching, with classy animations, parallax effects, and smooth transitions. The landing page opens with a cinematic animation—like a gift box slowly opening or a starry sky parting—leading to a heartfelt birthday message.
+
+Include the following sections:
+
+Hero Section: Fullscreen animated intro with soft orchestral music (optional mute/unmute), displaying "Happy Birthday [Friend's Name]" with elegant motion typography.
+
+Memory Lane: A horizontal scroll section with floating photo frames and short captions. Use smooth parallax scrolling and subtle particle effects (like sparkles or golden confetti).
+
+Messages from Loved Ones: A carousel of video or audio wishes, each in a stylish card with 3D hover effects.
+
+Countdown to a Surprise Reveal: A sleek countdown timer with shimmering effects, revealing a hidden heartfelt letter or a digital gift (e.g. video montage, custom poem, or curated playlist).
+
+Ending Section: A dreamy “Thank You for Being You” message with animated handwritten font and a touch of glittering stardust animation. Optionally, have a button to download all the memories as a PDF or video.
+
+Design Style: Dark mode with soft gold and rose accents. Use smooth micro-interactions, subtle shadows, and glassmorphism or neumorphism for a high-end feel. Add sound-reactive or scroll-based animations for extra flair.
+
